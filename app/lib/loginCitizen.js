@@ -5,7 +5,7 @@ import citizenSchema from "../models/citizen";
 import connectUserDB from "./usersdb";
 
 // The server-side function to login a citizen user
-export async function loginCitizen(formData) {
+export default async function loginCitizen(formData) {
   // Extract citizen data from formData
   const phone = formData.get("phone");
   const password = formData.get("password");
