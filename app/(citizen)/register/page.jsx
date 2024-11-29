@@ -62,7 +62,7 @@ const RegisterPage = () => {
     } else {
       // Show error message
       alert("আপনার রেজিস্ট্রেশন সফল হয়েছে!");
-      setIsPending(true);
+      setIsPending(false);
     }
   }
 

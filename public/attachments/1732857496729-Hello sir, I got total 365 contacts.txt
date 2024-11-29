@@ -1,0 +1,1 @@
+Hello sir, I got total 365 contacts, among them 100 are duplicates. So i got 265 unique contacts. 
