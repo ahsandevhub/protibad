@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { FaEye, FaEyeSlash } from "react-icons/fa"; // Import icons from react-icons/fa
-import { loginCitizen } from "../../lib/loginCitizen"; // Adjusted to a login function
+import loginCitizen from "../../lib/loginCitizen"; // Adjusted to a login function
 import Breadcrumb from "../Breadcrumb";
 
 const LoginPage = () => {
